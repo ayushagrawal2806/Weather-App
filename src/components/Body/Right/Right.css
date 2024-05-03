@@ -1,0 +1,105 @@
+.right{
+  
+    /* width: calc(100vw - 250px); */
+    padding: 0 1rem;
+    width: 80%;
+}
+
+.right .search{
+    margin-top: 1rem;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right .search input{
+    border-radius: 5px 0 0 5px;
+    border: 2px solid black;
+    border-right: none;
+    padding: 0.84rem;
+    font-size: 1rem;
+    
+}
+
+.right .search  button{
+    background-color: #4472C4;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.right .search  button:hover{
+    background-color: #4473c4c6;
+}
+
+.right .details{
+    margin-top: 0.5rem;
+}
+
+.right .details table{
+    /* border: 1px solid black; */
+    width: 100%;
+    border-collapse:collapse ;
+}
+
+.right .details table tr th{
+    text-align: start;
+    padding: 0.5rem;
+    background-color: #4472C4;
+    color: white;
+    border-right: 1px solid white;
+    width: calc(100% / 6);
+}
+.right .details table tr .delete{
+    border-right: 1px solid black;
+}
+
+
+
+.right .details table tr td{
+    border: 1px solid black;
+    width: calc(100% / 6);
+    padding: 0.5rem;
+
+}
+
+.right .details  .nodata{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.right .details input{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.4rem;
+    
+}
+
+.right .details img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width:800px) {
+    .right{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:650px) {
+    
+    .right .details input{
+        width: 100%;
+    }
+
+
+}
