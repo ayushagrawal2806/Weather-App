@@ -112,7 +112,11 @@
 
     .right .details table tr th{
         padding: 0.5rem 0;
-        text-align: center;
+        /* text-align: center; */
+    }
+
+    .right .details table tr td{
+        padding: 0.5rem 0;
     }
 
 }
