@@ -39,9 +39,9 @@ const Right = (props) => {
             <tr>
               <th>City</th>
               <th>Description</th>
-              <th>Temperature(ºC)</th>
-              <th>Pressure(hPa)</th>
-              <th>Data age(hrs)</th>
+              <th>Temperature (ºC)</th>
+              <th>Pressure (hPa)</th>
+              <th>Data age (hrs)</th>
               <th className="delete"></th>
             </tr>
           </thead>
